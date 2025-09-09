@@ -1,15 +1,23 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import NewsHero from "@/components/NewsHero";
-import ArticleContent from "@/components/ArticleContent";
+import Hero from "@/components/Hero";
+import FeaturedProject from "@/components/FeaturedProject";
+import NewsSection from "@/components/NewsSection";
+import ServicesSection from "@/components/ServicesSection";
+import PartnersSection from "@/components/PartnersSection";
+import DonationSection from "@/components/DonationSection";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
       <main>
-        <NewsHero />
-        <ArticleContent />
+        <Hero />
+        <FeaturedProject />
+        <ServicesSection />
+        <NewsSection />
+        <DonationSection />
+        <PartnersSection />
       </main>
       <Footer />
     </div>
