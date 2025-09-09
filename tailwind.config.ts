@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -26,6 +29,12 @@ export default {
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+        },
+        tijolinho: {
+          orange: "hsl(var(--tijolinho-orange))",
+          "orange-dark": "hsl(var(--tijolinho-orange-dark))",
+          blue: "hsl(var(--tijolinho-blue))",
+          "blue-dark": "hsl(var(--tijolinho-blue-dark))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
