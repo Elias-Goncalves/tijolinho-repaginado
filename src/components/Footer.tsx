@@ -60,10 +60,23 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-secondary-foreground/20 mt-8 pt-8 text-center">
-          <p className="text-secondary-foreground/60">
-            © 2023 OSC Tijolinho. Todos os direitos reservados.
-          </p>
+        <div className="border-t border-secondary-foreground/20 mt-8 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <p className="text-secondary-foreground/60 text-center md:text-left mb-4 md:mb-0">
+              Todos os direitos reservados © 2025
+            </p>
+            <div className="flex space-x-6">
+              <a href="/politica-privacidade" className="text-secondary-foreground/60 hover:text-primary transition-colors">
+                Política de Privacidade
+              </a>
+              <a href="/termos-uso" className="text-secondary-foreground/60 hover:text-primary transition-colors">
+                Termos de Uso
+              </a>
+              <a href="/transparencia" className="text-secondary-foreground/60 hover:text-primary transition-colors">
+                Transparência
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

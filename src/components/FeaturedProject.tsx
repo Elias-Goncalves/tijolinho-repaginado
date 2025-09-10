@@ -5,7 +5,9 @@ import bibliosescBanner from "@/assets/bibliosesc-banner.jpg";
 
 const FeaturedProject = () => {
   return (
-    <section id="projects" className="py-20 bg-muted/30">
+    <section id="projects" className="py-20" style={{ 
+      background: 'linear-gradient(135deg, #e8d5c4 0%, #f0e6d6 50%, #e8d5c4 100%)'
+    }}>
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -16,11 +18,11 @@ const FeaturedProject = () => {
 
         <Card className="max-w-6xl mx-auto overflow-hidden bg-white shadow-2xl">
           <div className="grid grid-cols-1 lg:grid-cols-2">
-            <div className="aspect-video lg:aspect-auto">
+            <div className="aspect-video lg:aspect-auto flex items-center justify-center p-4">
               <img
                 src={bibliosescBanner}
                 alt="BiblioSesc Santana - Biblioteca móvel"
-                className="w-full h-full object-cover"
+                className="w-full h-auto object-contain max-h-96"
               />
             </div>
             <CardContent className="p-8 lg:p-12 flex flex-col justify-center">
