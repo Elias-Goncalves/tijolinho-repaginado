@@ -47,7 +47,7 @@ const DonationSection = () => {
                 <div className="bg-white/20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
                   {option.icon}
                 </div>
-                <h3 className="text-xl font-bold mb-4">
+                <h3 className="text-xl font-bold mb-4 text-white">
                   {option.title}
                 </h3>
                 <p className="opacity-90 mb-6">
