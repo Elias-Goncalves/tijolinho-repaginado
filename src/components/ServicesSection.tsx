@@ -1,75 +1,59 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { 
-  Heart, 
-  Users, 
-  BookOpen, 
-  Target,
-  ArrowRight,
-  Palette,
-  Calendar,
-  FileText,
-  Camera,
-  Scale
-} from "lucide-react";
-
+import { Heart, Users, BookOpen, Target, ArrowRight, Palette, Calendar, FileText, Camera, Scale } from "lucide-react";
 const ServicesSection = () => {
-  const services = [
-    {
-      icon: <Camera className="h-8 w-8" />,
-      title: "Galeria",
-      description: "Confira os momentos especiais e atividades realizadas",
-      link: "/galeria"
-    },
-    {
-      icon: <Calendar className="h-8 w-8" />,
-      title: "Agenda de Eventos",
-      description: "Veja nossa programação e participe dos eventos",
-      link: "/eventos"
-    },
-    {
-      icon: <FileText className="h-8 w-8" />,
-      title: "Atualize-se",
-      description: "Mantenha-se informado sobre nossas atividades",
-      link: "/atualize"
-    },
-    {
-      icon: <Users className="h-8 w-8" />,
-      title: "Convênios",
-      description: "Conheça nossos parceiros e colaboradores",
-      link: "/convenios"
-    },
-    {
-      icon: <Scale className="h-8 w-8" />,
-      title: "Projeto de Lei",
-      description: "Informações sobre legislação e políticas públicas",
-      link: "/projeto-lei"
-    }
-  ];
-
-  const stats = [
-    { number: "500+", label: "Crianças Atendidas" },
-    { number: "15", label: "Anos de Atuação" },
-    { number: "20+", label: "Projetos Ativos" },
-    { number: "100+", label: "Voluntários" }
-  ];
-
-  return (
-    <>
+  const services = [{
+    icon: <Camera className="h-8 w-8" />,
+    title: "Galeria",
+    description: "Confira os momentos especiais e atividades realizadas",
+    link: "/galeria"
+  }, {
+    icon: <Calendar className="h-8 w-8" />,
+    title: "Agenda de Eventos",
+    description: "Veja nossa programação e participe dos eventos",
+    link: "/eventos"
+  }, {
+    icon: <FileText className="h-8 w-8" />,
+    title: "Atualize-se",
+    description: "Mantenha-se informado sobre nossas atividades",
+    link: "/atualize"
+  }, {
+    icon: <Users className="h-8 w-8" />,
+    title: "Convênios",
+    description: "Conheça nossos parceiros e colaboradores",
+    link: "/convenios"
+  }, {
+    icon: <Scale className="h-8 w-8" />,
+    title: "Projeto de Lei",
+    description: "Informações sobre legislação e políticas públicas",
+    link: "/projeto-lei"
+  }];
+  const stats = [{
+    number: "500+",
+    label: "Crianças Atendidas"
+  }, {
+    number: "15",
+    label: "Anos de Atuação"
+  }, {
+    number: "20+",
+    label: "Projetos Ativos"
+  }, {
+    number: "100+",
+    label: "Voluntários"
+  }];
+  return <>
       {/* Stats Section */}
       <section className="py-20 bg-primary">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center text-white">
+            {stats.map((stat, index) => <div key={index} className="text-center text-white">
                 <div className="text-4xl md:text-5xl font-bold mb-2">
                   {stat.number}
                 </div>
                 <div className="text-lg opacity-90">
                   {stat.label}
                 </div>
-              </div>
-            ))}
+              </div>)}
           </div>
         </div>
       </section>
@@ -78,7 +62,7 @@ const ServicesSection = () => {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+            <h2 className="text-4xl mb-6 text-orange-500 font-bold md:text-5xl">
               Nossos Serviços
             </h2>
             <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
@@ -88,8 +72,7 @@ const ServicesSection = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service, index) => (
-              <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-2">
+            {services.map((service, index) => <Card key={index} className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-2">
                 <CardContent className="p-8 text-center">
                   <div className="bg-primary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
                     {service.icon}
@@ -105,8 +88,7 @@ const ServicesSection = () => {
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -115,7 +97,7 @@ const ServicesSection = () => {
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8">
+            <h2 className="text-4xl font-bold mb-8 text-orange-500 md:text-5xl">
               Nossa Missão
             </h2>
             <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
@@ -161,8 +143,6 @@ const ServicesSection = () => {
           </div>
         </div>
       </section>
-    </>
-  );
+    </>;
 };
-
 export default ServicesSection;

@@ -2,15 +2,13 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import bibliosescBanner from "@/assets/bibliosesc.png";
-
 const FeaturedProject = () => {
-  return (
-    <section id="projects" className="py-20" style={{ 
-      background: 'linear-gradient(135deg, #e8d5c4 0%, #f0e6d6 50%, #e8d5c4 100%)'
-    }}>
+  return <section id="projects" className="py-20" style={{
+    background: 'linear-gradient(135deg, #e8d5c4 0%, #f0e6d6 50%, #e8d5c4 100%)'
+  }}>
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+          <h2 className="text-4xl font-bold mb-6 text-orange-500 md:text-5xl">
             Projeto em Destaque
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto"></div>
@@ -19,11 +17,7 @@ const FeaturedProject = () => {
         <Card className="max-w-6xl mx-auto overflow-hidden bg-white shadow-2xl">
           <div className="grid grid-cols-1 lg:grid-cols-2">
             <div className="aspect-video lg:aspect-auto flex items-center justify-center p-4">
-              <img
-                src={bibliosescBanner}
-                alt="BiblioSesc Santana - Biblioteca móvel"
-                className="w-full h-auto object-contain max-h-96"
-              />
+              <img src={bibliosescBanner} alt="BiblioSesc Santana - Biblioteca móvel" className="w-full h-auto object-contain max-h-96" />
             </div>
             <CardContent className="p-8 lg:p-12 flex flex-col justify-center">
               <h3 className="text-3xl font-bold text-foreground mb-6">
@@ -61,8 +55,6 @@ const FeaturedProject = () => {
           </div>
         </Card>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default FeaturedProject;
