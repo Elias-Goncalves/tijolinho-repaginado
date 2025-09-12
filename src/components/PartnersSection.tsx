@@ -1,19 +1,20 @@
-import parceirosImg from "@/assets/parceiros-1.png";
-import parceirosImg from "@/assets/parceiros-2.png";
-import parceirosImg from "@/assets/parceiros-3.png";
-import parceirosImg from "@/assets/parceiros-4.png";
-import parceirosImg from "@/assets/parceiros-5.png";
-import parceirosImg from "@/assets/parceiros-6.png";
+import parceiros1 from "@/assets/parceiros-1.png";
+import parceiros2 from "@/assets/parceiros-2.png";
+import parceiros3 from "@/assets/parceiros-3.png";
+import parceiros4 from "@/assets/parceiros-4.png";
+import parceiros5 from "@/assets/parceiros-5.png";
+import parceiros6 from "@/assets/parceiros-6.jpg";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 
 const PartnersSection = () => {
   const partnerLogos = [
-    { name: "SESC São Paulo", src: parceirosImg },
-    { name: "Fundação Tide Setúbal", src: parceirosImg },
-    { name: "Instituto Criança é Vida", src: parceirosImg },
-    { name: "Prefeitura de São Paulo", src: parceirosImg },
-    { name: "Governo do Estado", src: parceirosImg },
+    { name: "SESC São Paulo", src: parceiros1 },
+    { name: "Fundação Tide Setúbal", src: parceiros2 },
+    { name: "Instituto Criança é Vida", src: parceiros3 },
+    { name: "Prefeitura de São Paulo", src: parceiros4 },
+    { name: "Governo do Estado", src: parceiros5 },
+    { name: "Parceiro 6", src: parceiros6 },
   ];
 
   return (
