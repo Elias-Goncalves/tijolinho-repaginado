@@ -30,7 +30,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center justify-center md:justify-start">
                 <Phone className="h-5 w-5 mr-3 text-primary" />
-                <span className="text-secondary-foreground/80"><a href="https://api.whatsapp.com/send?phone=5511951603000"/>Whatsapp</span>
+                <span className="text-secondary-foreground/80"><a href="https://api.whatsapp.com/send?phone=5511951603000">Whatsapp</a></span>
               </div>
               <div className="flex items-center justify-center md:justify-start">
                 <Mail className="h-5 w-5 mr-3 text-primary" />
