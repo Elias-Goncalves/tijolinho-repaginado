@@ -1,5 +1,6 @@
 import { Mail, Phone, MapPin, Facebook, Instagram, Youtube } from "lucide-react";
 import tijolinhoLogoCircle from "@/assets/tijolinho-logo-circle.png";
+import {WhatsappLogo} from '@phosphor-icons/react';
 
 const Footer = () => {
   return (
@@ -29,7 +30,7 @@ const Footer = () => {
                 <span className="text-secondary-foreground/80">11-951603000</span>
               </div>
               <div className="flex items-center justify-center md:justify-start">
-                <Phone className="h-5 w-5 mr-3 text-primary" />
+                <a href="https://api.whatsapp.com/send?phone=5511951603000"><WhatsappLogo className="h-6 w-6 mr-3 text-teal-700" /></a>
                 <span className="text-secondary-foreground/80"><a href="https://api.whatsapp.com/send?phone=5511951603000">Whatsapp</a></span>
               </div>
               <div className="flex items-center justify-center md:justify-start">

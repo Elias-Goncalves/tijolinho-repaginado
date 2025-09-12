@@ -25,7 +25,7 @@ All colors MUST be HSL.
     /* Cores do Tijolinho */
     --primary: 24 87% 50%; /* Laranja principal #F39C12 */
     --primary-foreground: 0 0% 100%;
-
+    
     --secondary: 201 52% 51%; /* Azul #4A90B4 */
     --secondary-foreground: 0 0% 100%;
 
@@ -78,7 +78,7 @@ All colors MUST be HSL.
 
     --primary: 24 87% 50%;
     --primary-foreground: 0 0% 100%;
-
+ 
     --secondary: 201 52% 51%;
     --secondary-foreground: 0 0% 100%;
 

@@ -51,7 +51,7 @@ const PartnersSection = () => {
                     <img
                       src={partner.src}
                       alt={`Logo ${partner.name}`}
-                      className="max-w-full max-h-full object-contain filter grayscale hover:filter-none transition-all duration-300"
+                      className="max-w-full max-h-full object-contain "
                     />
                   </div>
                 </CarouselItem>

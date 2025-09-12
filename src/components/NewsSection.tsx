@@ -11,19 +11,22 @@ const NewsSection = () => {
     image: setembroAmareloImg,
     excerpt: "Atividades especiais voltadas para a conscientização sobre saúde mental e prevenção do suicídio.",
     link: "/noticias/setembro-amarelo"
-  }, {
+  }, 
+  {
     id: 2,
     title: "Na OSC Tijolinho, a criatividade e a consciência caminham juntas!",
     image: criatividadeImg,
     excerpt: "Projetos educativos que estimulam a criatividade das crianças e adolescentes atendidos.",
     link: "/noticias/criatividade-consciencia"
-  }, {
+  }, 
+  {
     id: 3,
     title: "OSC Tijolinho realiza atividade em parceria com o Instituto Criança é Vida",
     image: parceriaImg,
     excerpt: "Uma importante parceria que amplia o alcance de nossos projetos sociais.",
     link: "/noticias/parceria-instituto"
-  }];
+  }
+];
   return <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
