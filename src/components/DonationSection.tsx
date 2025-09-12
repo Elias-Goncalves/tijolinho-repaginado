@@ -3,17 +3,17 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Heart, CreditCard, PiggyBank, Users } from "lucide-react";
 const DonationSection = () => {
   const donationOptions = [{
-    icon: <CreditCard className="h-8 w-8" />,
+    icon: <CreditCard className="h-8 w-8 text-white" />,
     title: "Doação Online",
     description: "Faça sua doação de forma rápida e segura através do nosso site",
     action: "Doar Agora"
   }, {
-    icon: <PiggyBank className="h-8 w-8" />,
+    icon: <PiggyBank className="h-8 w-8 text-white" />,
     title: "Nota Fiscal Paulista",
     description: "Doe seus créditos da Nota Fiscal Paulista sem custo adicional",
     action: "Saiba Como"
   }, {
-    icon: <Users className="h-8 w-8" />,
+    icon: <Users className="h-8 w-8 text-white" />,
     title: "Seja Voluntário",
     description: "Doe seu tempo e conhecimento para nossos projetos",
     action: "Participe"
