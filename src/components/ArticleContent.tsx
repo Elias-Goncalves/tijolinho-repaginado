@@ -82,10 +82,10 @@ const ArticleContent = () => {
 
           <div className="text-center py-8">
             <p className="text-xl font-bold text-primary mb-4">
-              Seja um doador automático em 2023, seremos sempre gratos
+              Seja um doador automático em 2025, seremos sempre gratos
             </p>
             <p className="text-lg text-foreground">
-              Forte abraço e um <strong>FELIZ 2023!</strong>
+              Forte abraço e um <strong>FELIZ 2025!</strong>
             </p>
           </div>
 

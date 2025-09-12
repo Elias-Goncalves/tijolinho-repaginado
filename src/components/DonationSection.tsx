@@ -54,7 +54,7 @@ const DonationSection = () => {
 
         <div className="text-center">
           <p className="text-lg mb-6 opacity-90">
-            Seja um doador automático em 2023, seremos sempre gratos!
+            Seja um doador automático em 2025, seremos sempre gratos!
           </p>
           <Button size="lg" variant="secondary" className="px-12">
             Quero Ajudar Agora
