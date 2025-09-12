@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import bibliosescBanner from "@/assets/bibliosesc-banner.jpg";
+import bibliosescBanner from "@/assets/bibliosesc.png";
 
 const FeaturedProject = () => {
   return (
