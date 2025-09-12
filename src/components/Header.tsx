@@ -30,11 +30,17 @@ const Header = () => {
       <div className="w-full">
         {/* Top bar with logo */}
         <div className="flex items-center justify-center py-6 border-b border-border bg-white">
-          <img 
-            src={tijolinhoLogo} 
-            alt="OSC Tijolinho - Aproximando pessoas" 
-            className="h-20 w-auto"
-          />
+          <div className="flex items-center gap-4">
+            <img 
+              src={tijolinhoLogo} 
+              alt="OSC Tijolinho - Aproximando pessoas" 
+              className="h-20 w-auto"
+            />
+            <div className="flex flex-col">
+              <h1 className="text-2xl md:text-3xl font-bold text-tijolinho">Tijolinho</h1>
+              <p className="text-sm md:text-base text-tijolinho/80 font-medium">Aproximando Pessoas</p>
+            </div>
+          </div>
         </div>
 
         {/* Navigation */}
