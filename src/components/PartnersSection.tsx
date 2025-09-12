@@ -1,4 +1,9 @@
-import parceirosImg from "@/assets/parceiros.png";
+import parceirosImg from "@/assets/parceiros-1.png";
+import parceirosImg from "@/assets/parceiros-2.png";
+import parceirosImg from "@/assets/parceiros-3.png";
+import parceirosImg from "@/assets/parceiros-4.png";
+import parceirosImg from "@/assets/parceiros-5.png";
+import parceirosImg from "@/assets/parceiros-6.png";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 
