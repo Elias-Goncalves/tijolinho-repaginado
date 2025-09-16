@@ -55,17 +55,21 @@ const NewsSection = () => {
                 <p className="text-muted-foreground mb-4 line-clamp-3">
                   {article.excerpt}
                 </p>
-                <Button variant="outline" className="group">
-                  Leia Mais
-                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                <Button variant="outline" className="group" asChild>
+                  <a href={article.link}>
+                    Leia Mais
+                    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                  </a>
                 </Button>
               </CardContent>
             </Card>)}
         </div>
 
         <div className="text-center">
-          <Button size="lg" variant="secondary">
-            Ver Todas as Notícias
+          <Button size="lg" variant="secondary" asChild>
+            <a href="/noticias">
+              Ver Todas as Notícias
+            </a>
           </Button>
         </div>
       </div>
