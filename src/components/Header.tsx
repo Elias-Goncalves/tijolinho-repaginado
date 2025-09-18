@@ -37,7 +37,7 @@ const Header = () => {
               className="h-20 w-auto"
             />
             <div className="flex flex-col">
-              <h1 className="text-2xl md:text-3xl font-bold text-primary">Tijolinho</h1>
+              <h1 className="text-2xl md:text-3xl font-bold text-primary">OSC Tijolinho</h1>
               <p className="text-sm md:text-base text-primary font-medium">Aproximando Pessoas</p>
             </div>
           </div>
